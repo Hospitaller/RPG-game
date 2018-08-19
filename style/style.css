@@ -1,0 +1,17 @@
+body {
+    
+}
+
+#container {
+    margin: 0 auto;
+    background-color: green;
+    width: 960px;
+    height: 960px;
+}
+
+.cellElem {
+   /*  border: 1px solid red; */
+    width: 64px;
+    height: 64px;
+    float: left;
+}
