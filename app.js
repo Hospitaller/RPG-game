@@ -170,13 +170,13 @@ function getTable() {
 function getImWallBottomLeft(x,y) {
     for (var i = x; i <= y; i++) {
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/wall_bottom_left.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/wall_bottom_left.jpg")');
     }
 }
 function getImWallBottomRight(x,y) {
     for (var i = x; i <= y; i++) {
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/wall_bottom_right.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/wall_bottom_right.jpg")');
     }
 }
 
@@ -184,13 +184,13 @@ function getImWallBottomRight(x,y) {
 function getImgWallTopLeft(x,y) {
     for (var i = x; i <= y; i++) {
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/wall_tile_left.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/wall_tile_left.jpg")');
     }
 }
 function getImgWallTopRight(x,y) {
     for (var i = x; i <= y; i++) {
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/wall_tile_right.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/wall_tile_right.jpg")');
     }
 }
 //--Рисование верхних угловых стен
@@ -199,13 +199,13 @@ function getImgWallTopRight(x,y) {
 function getImgWallSideLeft(x,y) {
     for (var i = x; i <= y; i++) {
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/wall_left.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/wall_left.jpg")');
     }
 }
 function getImgWallSideRight(x,y) {
     for (var i = x; i <= y; i++) {
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/wall_right.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/wall_right.jpg")');
     }
 }
 //--Рисование стен сторон
@@ -214,75 +214,75 @@ function getImgWallSideRight(x,y) {
 function getImWallWallLeft(x,y) {
     for (var i = x; i <= y; i++) {
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/wall_wall_left.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/wall_wall_left.jpg")');
     }
 }
 function getImWallWallRight(x,y) {
     for (var i = x; i <= y; i++) {
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/wall_wall_right.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/wall_wall_right.jpg")');
     }
 }
 //Рисование стен
 function getImgWall(x,y) {
     for (var i = x; i <= y; i++) {
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/wall.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/wall.jpg")');
     }
 }
 //Рисование т-образной стены 
 function getImgWallTDowm(x,y) {
     for (var i = x; i <= y; i++){
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/wall_t_down.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/wall_t_down.jpg")');
     }
 }
 function getImgWallTUp(x,y) {
     for (var i = x; i <= y; i++){
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/wall_t_up.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/wall_t_up.jpg")');
     }
 }
 //Рисование заглушки стены
 function getImgWallVCap(x,y) {
     for (var i = x; i <= y; i++){
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/wall_v_cap.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/wall_v_cap.jpg")');
     }
 }
 //Рисование разлома стены влево
 function getImgWallBreak(x,y) {
     for (var i = x; i <= y; i++){
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/break_wall_left.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/break_wall_left.jpg")');
     }
 }
 //Рисование крошек разлома
 function getImgWallCrumb(x,y) {
     for (var i = x; i <= y; i++){
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/break_crumb.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/break_crumb.jpg")');
     }
 }
 //Рисование колонны
 function getImgColumn(x,y) {
     for (var i = x; i <= y; i++){
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/column.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/column.jpg")');
     }
 }
 //Рисование пола
 function getImgFloor(x,y) {
     for (var i = x; i <= y; i++){
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/floor_tile.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/floor_tile.jpg")');
     }
 }
 //Рисование двери
 function getImgDoor(x,y) {
     for (var i = x; i <= y; i++){
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/door.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/door.jpg")');
     }
 }
 
@@ -290,21 +290,21 @@ function getImgDoor(x,y) {
 function getImgFlask(x,y) {
     for (var i = x; i <= y; i++){
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/flask.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/flask.jpg")');
     }
 }
 //Рисование бутылки разбита
 function getImgFlaskBroken(x,y) {
     for (var i = x; i <= y; i++){
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/flask_broken.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/flask_broken.jpg")');
     }
 }
 //Рисование бутылки разбита осколки
 function getImgFlaskBrokenSmall(x,y) {
     for (var i = x; i <= y; i++){
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/flask_broken_small.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/flask_broken_small.jpg")');
     }
 }
 
@@ -312,7 +312,7 @@ function getImgFlaskBrokenSmall(x,y) {
 function getImgChestClose(x,y) {
     for (var i = x; i <= y; i++){
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/chest_close.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/chest_close.jpg")');
     }
 }
 
@@ -320,7 +320,7 @@ function getImgChestClose(x,y) {
 function getImgBox(x,y) {
     for (var i = x; i <= y; i++){
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/box.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/box.jpg")');
     }
 }
 
@@ -328,9 +328,41 @@ function getImgBox(x,y) {
 function getImgStairsDown(x,y) {
     for (var i = x; i <= y; i++){
         var elem = document.getElementById(i);
-        elem.setAttribute('style', 'background-image : url("/img/stairs_down.jpg")');
+        elem.setAttribute('style', 'background-image : url("img/stairs_down.jpg")');
     }
 }
 
+//Движение персонажа
+    var div = $('#container');
 
-
+    div.click(function(){
+    
+        
+    
+        $(document).keydown(function(e) {
+        switch (e.which) {
+            case 37: //влево
+            $('#hero').removeClass().addClass('moveLeft')
+            div.css('left', div.offset().left + 10);
+            break;
+            case 38://вверх
+            $('#hero').removeClass().addClass('moveUp')
+            div.css('top', div.offset().top + 10);
+            break;
+            case 39://вправо
+            $('#hero').removeClass().addClass('moveRight');
+            div.css('left', div.offset().left - 10);
+            break;
+            case 40://вниз
+            $('#hero').removeClass().addClass('moveDown')
+            div.css('top', div.offset().top - 10);
+            break;
+            }
+        })
+    
+});
+    
+/* 
+if ($('#hero').hasClass('.moveRight')) {
+    $('.moveRight').css({'color':'red'})
+}  */
