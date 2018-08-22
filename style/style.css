@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: black;
+}
+#container {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    
+}
+
+.cellElem {
+  
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+#hero {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+/*     background-image: url("../img/orc_idle.gif");  */
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 50px;
+    z-index: 500;
+}
+.moveRight {
+    background-image: url("../img/orc_walk.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 50px;
+
+}
+.moveLeft {
+    background-image: url("../img/orc_walk.gif");
+    transform: scale(-1, 1);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 50px;
+}
+.moveUp, .moveDown {
+    background-image: url("../img/orc_walk.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 50px;
+}
+.moveStop {
+    background-image: url("../img/orc_walk.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 50px;
+}
+
+
+#test {
+    position: absolute;
+    overflow: hidden;
+
+ /*    left: 0px;
+    right: 0px; */
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    
+}
+
+#fog {
+    position: absolute;
+    overflow: hidden;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+
+}
